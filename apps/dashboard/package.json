@@ -1,0 +1,21 @@
+{
+  "name": "@dashdash/dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vue-tsc -b && vite build",
+    "check": "vue-tsc -b --pretty false"
+  },
+  "dependencies": {
+    "@dashdash/shared": "workspace:*",
+    "vue": "^3.5.13",
+    "vite": "^6.3.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vue-tsc": "^2.1.10",
+    "typescript": "^5.8.3"
+  }
+}

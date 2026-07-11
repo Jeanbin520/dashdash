@@ -1,0 +1,25 @@
+node_modules/
+dist/
+.turbo/
+coverage/
+.env
+.env.local
+*.log
+*.db
+*.db-journal
+*.sqlite
+*.sqlite-*
+
+# 本地包缓存与生成产物
+.pnpm-store/
+__pycache__/
+*.pyc
+
+# 编辑器/工具本地数据
+.zcode/plans/
+.vscode/
+.idea/
+
+# 依赖目录名（保险）
+.pnpm-debug.log*
+
